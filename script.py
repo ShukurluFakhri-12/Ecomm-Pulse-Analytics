@@ -123,5 +123,6 @@ def save_report_to_file():
         file.write(f"The most expensive: {maximum}\n")
         file.write("-" * 35 + "\n")
     base.close()
+    
 if __name__ == "__main__":
     main()
